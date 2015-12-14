@@ -28,8 +28,8 @@ var OPENNING_GROUP = 1;
 var ENDING_GROUP = 6;
 
 var WEEKDAY_GROUP = 2;
-var MONTH_GROUP = 3;
-var DAY_GROUP = 4;
+var MONTH_GROUP = 4;
+var DAY_GROUP = 3;
 var YEAR_GROUP = 5;
 
 exports.Parser = function ENSlashDateFormatParser(argument) {
