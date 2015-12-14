@@ -10,7 +10,7 @@ var ParsedResult = require('../../result').ParsedResult;
 
 var PATTERN = new RegExp('(\\W|^)' +
     '(?:' +
-        '((?:dim|lun|mar|mer|jeu|ven|sam' +
+        '((?:dimanche|lundi|mardi|mercredi|jeudi|vendredi|samedi?)?)' +
         '\\s*\\,?\\s*' +
     ')?' +
     '([0-9]{1,2})[\\/\\.\\-]([0-9]{1,2})' +
