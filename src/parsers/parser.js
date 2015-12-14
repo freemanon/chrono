@@ -50,16 +50,16 @@ function Parser(strictMode) {
 
 exports.Parser = Parser;
 
-exports.ENISOFormatParser = require('./EN/ENISOFormatParser').Parser;
-exports.ENDeadlineFormatParser = require('./EN/ENDeadlineFormatParser').Parser;
-exports.ENMonthNameLittleEndianParser = require('./EN/ENMonthNameLittleEndianParser').Parser;
-exports.ENMonthNameMiddleEndianParser = require('./EN/ENMonthNameMiddleEndianParser').Parser;
-exports.ENSlashDateFormatParser = require('./EN/ENSlashDateFormatParser').Parser;
-exports.ENSlashDateFormatStartWithYearParser = require('./EN/ENSlashDateFormatStartWithYearParser').Parser;
-exports.ENTimeAgoFormatParser = require('./EN/ENTimeAgoFormatParser').Parser;
-exports.ENTimeExpessionParser = require('./EN/ENTimeExpressionParser').Parser;
-exports.ENWeekdayParser = require('./EN/ENWeekdayParser').Parser;
-exports.ENCasualDateParser = require('./EN/ENCasualDateParser').Parser;
+exports.ENISOFormatParser = require('./FR/ENISOFormatParser').Parser;
+exports.ENDeadlineFormatParser = require('./FR/ENDeadlineFormatParser').Parser;
+exports.ENMonthNameLittleEndianParser = require('./FR/ENMonthNameLittleEndianParser').Parser;
+exports.ENMonthNameMiddleEndianParser = require('./FR/ENMonthNameMiddleEndianParser').Parser;
+exports.ENSlashDateFormatParser = require('./FR/ENSlashDateFormatParser').Parser;
+exports.ENSlashDateFormatStartWithYearParser = require('./FR/ENSlashDateFormatStartWithYearParser').Parser;
+exports.ENTimeAgoFormatParser = require('./FR/ENTimeAgoFormatParser').Parser;
+exports.ENTimeExpessionParser = require('./FR/ENTimeExpressionParser').Parser;
+exports.ENWeekdayParser = require('./FR/ENWeekdayParser').Parser;
+exports.ENCasualDateParser = require('./FR/ENCasualDateParser').Parser;
 
 exports.JPStandardParser = require('./JP/JPStandardParser').Parser;
 exports.JPCasualDateParser = require('./JP/JPCasualDateParser').Parser;
